@@ -33,4 +33,44 @@ li a{
     justify-content: center;
 }
 
+li :hover{
+    background-color: rgb(210, 17, 210);
+}
 /* navbar ends */
+
+/* header and footer starts*/
+
+header{
+    text-align: center;
+    font-family: 'Gill Sans','sans-serif';
+}
+
+footer{
+    background-color: #333;
+    color:white;
+    padding:20px 0;
+    text-align: center;
+}
+
+/* header and footer ends */
+
+/* image starts */
+img{
+    height:500;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.store{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.store1image{
+    margin-top: 25px;
+}
+.store2image{
+    margin-top: 10px;
+}
+/* image ends */
