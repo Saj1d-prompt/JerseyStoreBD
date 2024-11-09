@@ -53,3 +53,32 @@ footer{
 }
 
 /* header and footer ends */
+
+/* image starts */
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.Jersey{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+/* image ends */
+
+/* paragraph starts */
+p{
+    font-size: 20px;
+    margin-left: 5%;
+    border: 2px solid black;
+    padding:10px;
+}
+
+p:hover{
+    border:2px solid rgb(218, 119, 236);
+    color:rgb(255, 0, 212);
+}
+
+/* paragraph ends */
